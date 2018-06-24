@@ -21,13 +21,9 @@ Here we try and predict the next pixel `(i + 1)` in a sequence based on the curr
 
  Completing images in this way can have interesting results. Below is an example of a case where I removed the bottom half of the image and  completed the rest one pixel at a time. Although the original image had the label "one", the network completed it as a "six", resulting in high cross-entropy loss over the entire image. This is obviously a little unfair since even a human could be expected to complete the image as a "six" if he were only to see the top half of the ground-truth image. This highlights the need carefully to pick a loss function that's suitable for the task at hand.
 
-Predicted completion:
-
-![](https://github.com/noorvir-a/RNN-Experiments/blob/master/images/pixel_completion_ex1.png)
-
-Ground-truth image:
-
-![](https://github.com/noorvir-a/RNN-Experiments/blob/master/images/pixel_completion_gt1.png)
+ Predicted completion       |  Ground-truth image:
+ :-------------------------:|:-------------------------:
+ ![](https://github.com/noorvir-a/RNN-Experiments/blob/master/images/pixel_completion_ex1.png)  |  ![](https://github.com/noorvir-a/RNN-Experiments/blob/master/images/pixel_completion_gt1.png)
 
 
 **In-painting**
