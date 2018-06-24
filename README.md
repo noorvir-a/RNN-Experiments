@@ -23,11 +23,11 @@ Here we try and predict the next pixel `(i + 1)` in a sequence based on the curr
 
 Predicted completion:
 
-![](https://github.com/noorvir-a/RNN-Experiments/tree/master/images/pixel_completion_ex1.png)
+![](https://github.com/noorvir-a/RNN-Experiments/blob/master/images/pixel_completion_ex1.png)
 
 Ground-truth image:
 
-![](https://github.com/noorvir-a/RNN-Experiments/tree/master/images/pixel_completion_gt1.png)
+![](https://github.com/noorvir-a/RNN-Experiments/blob/master/images/pixel_completion_gt1.png)
 
 
 **In-painting**
